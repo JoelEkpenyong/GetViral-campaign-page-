@@ -134,6 +134,13 @@ hr{
     width: 3.125rem;
     height: 4.063rem;
 }
+.dropzone{
+    background-color: transparent;
+    border: none;
+}
+.dropzone .dz-message .dz-button {
+  display: none;
+}
 .page-navigation button{
     font-weight: bold;
     border: none;
