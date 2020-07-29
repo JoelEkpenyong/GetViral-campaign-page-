@@ -101,11 +101,6 @@ hr{
     height: 0.25rem;
     background-color: #ECF1F5;
 }
-@media screen and (min-width:400px){
-    #upload-campaign .progress{
-        width: 12.5rem;
-}
-}
 @media screen and (min-width: 500px){
     #upload-campaign .progress{
         width: 12.5rem;
