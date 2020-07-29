@@ -9,6 +9,9 @@ body {
   font-family: "Source Sans Pro", sans-serif !important;
 }
 
+.container-fluid{
+  background-color: #fff;
+}
 
 .side-bar__name:hover,
 .side-bar__name:active {
@@ -44,7 +47,7 @@ body {
 
 header,
 .stickyNav{
-  background-color: var(--sideBar-secondary-color);
+  background-color: #fff;
 }
 
 /* Utility classes */
