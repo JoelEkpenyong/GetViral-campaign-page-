@@ -1,0 +1,142 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* variables */
+:root{
+    --primary: #333;
+    --secondary: #f58b11;
+    --light: #333333b3;
+    --green: #3BC76A;
+    --gray-shade: #c4c4c480;
+    --gray-tint: #C4C4C4;
+}
+
+/* utility classes */
+.text_primary{
+    color: var(--primary);
+}
+.text_secondary{
+    color: var(--secondary);
+}
+.text_light{
+    color: var(--light);
+}
+.text_smaller{
+    font-size: 0.625rem;
+    line-height: 0.813rem;
+}
+.text_small{
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+}
+.text_normal{
+    font-size: .8rem;
+    line-height: 1rem;
+}
+.text_large{
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #000;
+}
+.text_larger{
+    font-size: 1.25rem;
+    line-height: 1.563rem;
+}
+.text_caption{
+    font-size: 1.25rem;
+    line-height: 1.7rem;
+}
+@media screen and (min-width: 400px){
+    .text_normal{
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+    .text_large{
+        font-size: 1.125rem;
+        line-height: 1.438rem;
+    }
+    .text_caption{
+        font-size: 1.438rem;
+        line-height: 2.063rem;
+    }
+}
+.bg_secondary{
+    background-color: var(--secondary);
+}
+.bg_shade{
+    background-color: var(--gray-shade);
+}
+.bg_tint{
+    background-color: var(--gray-tint);
+}
+hr{
+    border: 2px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Main styles */
+#upload-campaign{
+    padding: 2rem 1rem 0;
+}
+@media screen and (min-width:576px){
+    #upload-campaign{
+        padding: 2rem 2rem 0;
+    }
+}
+@media screen and (min-width: 768px){
+    #upload-campaign{
+        padding: 2rem 3.75rem 0;
+    }
+}
+#upload-campaign .progress{
+    width: 5rem;
+    height: 0.25rem;
+    background-color: #ECF1F5;
+}
+@media screen and (min-width:400px){
+    #upload-campaign .progress{
+        width: 12.5rem;
+}
+}
+@media screen and (min-width: 500px){
+    #upload-campaign .progress{
+        width: 12.5rem;
+    }
+}
+#upload-campaign .progress-bar{
+    background-color: var(--green);
+}
+.wrapper{
+    width: 100%;
+    border: 1px solid var(--light);
+}
+@media screen and (min-width: 576px){
+    .wrapper{
+      width: 18.75rem;
+    }
+}
+.wrapper .iconify{
+    width: 5rem;
+    height: 4.375rem;
+}
+.wrapper p:last-of-type{
+    width: 50%;
+}
+#upload-files .iconify{
+    width: 3.125rem;
+    height: 4.063rem;
+}
+.page-navigation button{
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
