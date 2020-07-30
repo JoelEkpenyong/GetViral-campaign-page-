@@ -86,6 +86,12 @@ hr{
 #upload-campaign{
     padding: 2rem 0 0;
 }
+.big-inner-nav{
+    padding-left: 1.7rem;
+}
+.navbar-brand{
+    padding-top: .5rem;
+}
 @media screen and (min-width:576px){
     #upload-campaign{
         padding: 2rem 2rem 0;
