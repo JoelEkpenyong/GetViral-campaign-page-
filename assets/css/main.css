@@ -5,12 +5,12 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: var(--sideBar-secondary-color);
   font-family: "Source Sans Pro", sans-serif !important;
 }
 
 .container-fluid{
-  background-color: #fff;
+  background-color: var(--sideBar-secondary-color);
 }
 
 .side-bar__name:hover,
@@ -47,7 +47,7 @@ body {
 
 header,
 .stickyNav{
-  background-color: #fff;
+  background-color: var(--sideBar-secondary-color);
 }
 
 /* Utility classes */
@@ -174,7 +174,7 @@ header,
   .display-area {
     margin-left: 200px;
     /* height: 100vh; */
-    background-color: #e5e5e5;
+    background-color: var(--sideBar-secondary-color);
     transition: all .5s ease;
   }
 
