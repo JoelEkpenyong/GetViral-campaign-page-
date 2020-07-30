@@ -106,6 +106,29 @@ header,
   bottom: 20px;
 }
 
+/* BIG SCREEN INNER PAGE NAV STARTS  */
+.big-inner-nav{
+  display: none;
+}
+.header__link {
+  color: #000;
+  font-size: 16px;
+}
+.header__link-active {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--sideBar-active);
+  border-bottom: 3px solid var(--sideBar-active);
+}
+
+@media all and (min-width:768px) {
+  .big-inner-nav{
+       display: block;
+  
+} 
+}
+/* BIG SCREEN INNER PAGE NAV ENDS  */
+
 /*Big screens*/
 /*Hamburger menu*/
 .hamburger-button {
