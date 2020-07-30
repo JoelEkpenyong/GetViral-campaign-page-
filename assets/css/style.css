@@ -136,7 +136,7 @@ hr{
 .dropzone .dz-message .dz-button {
   display: none;
 }
-.page-navigation button{
+#page-navigation button{
     font-weight: bold;
     border: none;
     outline: none;
