@@ -109,6 +109,8 @@ hr{
 #upload-campaign .progress-bar{
     background-color: var(--green);
 }
+
+/* you can do away with these styles */
 .wrapper{
     width: 100%;
     border: 1px solid var(--light);
