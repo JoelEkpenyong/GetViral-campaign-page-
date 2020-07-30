@@ -9,9 +9,6 @@ body {
   font-family: "Source Sans Pro", sans-serif !important;
 }
 
-.container-fluid{
-  background-color: var(--sideBar-secondary-color);
-}
 
 .side-bar__name:hover,
 .side-bar__name:active {
@@ -45,11 +42,6 @@ body {
   padding: 0 20px;
 }
 
-header,
-.stickyNav{
-  background-color: var(--sideBar-secondary-color);
-}
-
 /* Utility classes */
 .mt-xl {
   margin: 27px 0;
@@ -80,6 +72,16 @@ header,
 /* Active state */
 .icon-active {
   fill: var(--sideBar-active);
+}
+
+.header,
+.main-content > header {
+  background-color: var(--sideBar-secondary-color);
+}
+
+header, 
+.stickyNav{
+  background-color: var(--sideBar-secondary-color);
 }
 
 .nav-link-active {
@@ -154,7 +156,6 @@ header,
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color: #fff;
-    transition: all .5s ease;
   }
 
   .nav-link-active::after {
@@ -171,20 +172,18 @@ header,
     margin: 0 auto;
   }
 
-  .display-area {
+  .main-content {
     margin-left: 200px;
-    /* height: 100vh; */
-    background-color: var(--sideBar-secondary-color);
+    background-color: #f5f6fa;
     transition: all .5s ease;
   }
 
+
   .collapse-sidebar {
-    transition: all .5s ease;
     overflow-x: hidden;
   }
 
   .collapse-sidebar .sidebar {
-    transition: all .5s ease;
     position: relative;
     width: 50px;
   }
@@ -209,8 +208,7 @@ header,
     padding: 0 14px;
   }
 
-  .collapse-sidebar .display-area {
+  .collapse-sidebar .main-content {
     margin-left: 50px;
   }
 }
-
