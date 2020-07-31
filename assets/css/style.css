@@ -148,10 +148,6 @@ hr{
 .wrapper p:last-of-type{
     width: 80%;
 }
-#upload-files .iconify{
-    width: 3.125rem;
-    height: 4.063rem;
-}
 .dropzone{
     background-color: transparent;
     border: none;
