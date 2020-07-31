@@ -64,6 +64,10 @@ body{
         font-size: 1.125rem;
         line-height: 1.438rem;
     }
+    .text_larger{
+        font-size: 1.625rem;
+        line-height: 2.0625rem;
+    }
     .text_caption{
         font-size: 1.438rem;
         line-height: 2.063rem;
@@ -107,6 +111,17 @@ hr{
     height: 0.25rem;
     background-color: #ECF1F5;
 }
+#upload-campaign .progress-bar{
+    animation: progress 1s forwards;
+}
+@keyframes progress{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
 @media screen and (min-width: 576px){
     #upload-campaign .progress{
         width: 12.5rem;
@@ -119,7 +134,7 @@ hr{
 /* you can do away with these styles */
 .wrapper{
     width: 100%;
-    border: 1px solid var(--light);
+    border: 1px solid var(--light) !important;
 }
 @media screen and (min-width: 576px){
     .wrapper{
@@ -131,7 +146,7 @@ hr{
     height: 4.375rem;
 }
 .wrapper p:last-of-type{
-    width: 50%;
+    width: 80%;
 }
 #upload-files .iconify{
     width: 3.125rem;
